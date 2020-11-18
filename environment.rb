@@ -5,4 +5,4 @@ Bundler.require #require all gems in gem file
 
 require_relative "./lib/api" #requiring something that is in the same repo folder and if someone clones it it will be in the same location 
 require_relative "./lib/cli"
-require_relative "./lib/model"
+require_relative "./lib/article"
