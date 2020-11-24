@@ -48,8 +48,6 @@ class Cli
             elsif  user_input == "new" || user_input == "n"  #send person back to menu
                 puts "Ok, please select another article"
                 ask_user_which_article_to_read 
-                puts "Here is the information you requested!" 
-                display_article_details(article_instance)
             #insert the rest of the information about the article here
             else 
                 #end the program
