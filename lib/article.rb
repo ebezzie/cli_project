@@ -14,7 +14,7 @@ class Article
     end
 
     def self.all
-        @@all #ablity to access the method 
+        @@all #ablity to access the class variable has no value outside of this class
     end
 
 end
