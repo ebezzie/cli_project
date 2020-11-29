@@ -1,4 +1,4 @@
-# your standard oo class
+# my standard oo class
 class Article
     attr_accessor :author, :title, :description, :url
 
@@ -12,9 +12,7 @@ class Article
 
         @@all << self #the ability to save every article 
     end
-
     def self.all
         @@all #ablity to access the class variable has no value outside of this class
     end
-
 end
