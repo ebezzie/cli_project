@@ -4,15 +4,15 @@ class Article
 
     @@all = []
 
-    def initialize(author, title, description, url) #these 4 attributes can be passed in anytime we call .new 
+    def initialize(author, title, description, url)
         @author = author
         @title = title
         @description = description
         @url = url 
 
-        @@all << self #the ability to save every article 
+        @@all << self 
     end
     def self.all
-        @@all #ablity to access the class variable has no value outside of this class
+        @@all
     end
 end
